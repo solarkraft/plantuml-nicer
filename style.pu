@@ -1,8 +1,18 @@
-' Not-ugly plantuml style defaults
+' Less-ugly plantuml style defaults
 
-skinparam defaultFontName  Helvetica
+skinparam {
+    DPI 200
+    Shadowing false
+    DefaultFontName Roboto Condensed
+    DefaultMonospacedFontName Inconsolata
+    ' Monochrome true
+    ' The colors aren't great, but pure monochrome isn't either
+
+    ArrowColor Black
+    BorderColor Black
+}
+
 skinparam sequenceMessageAlign center
-skinparam monochrome true
 
 skinparam activity {
 	ArrowColor Black
