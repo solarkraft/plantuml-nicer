@@ -5,8 +5,7 @@ skinparam {
     Shadowing false
     DefaultFontName Roboto Condensed
     DefaultMonospacedFontName Inconsolata
-    ' Monochrome true
-    ' The colors aren't great, but pure monochrome isn't either
+    Monochrome true
 
     ArrowColor Black
     BorderColor Black
