@@ -2,8 +2,8 @@
 
 skinparam {
     DPI 200
-    Shadowing false
-    DefaultFontName Roboto Condensed
+    Shadowing true
+    DefaultFontName Segoe UI
     DefaultMonospacedFontName Inconsolata
     Monochrome true
 
