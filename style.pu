@@ -2,11 +2,13 @@
 
 skinparam {
     DPI 200
-    Shadowing true
+    Shadowing false
+    ' Works with the official PlantUML server. Mileage may vary. 
     DefaultFontName Segoe UI
     DefaultMonospacedFontName Inconsolata
-    Monochrome true
+    Roundcorner 8
 
+    Monochrome true
     ArrowColor Black
     BorderColor Black
 }
